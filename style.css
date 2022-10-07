@@ -1,4 +1,82 @@
 body{ background-color: #add8e6;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 0;
+    
 
 }
 
+ul{
+    display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 16px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+p, ul, ol {
+    border: 2px solid transparent;
+    padding: 1.5em;
+    border-radius: 5px;
+    background-color: #FFD782;
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Snell Roundhand",
+        "cursive";
+}
+
+h3{
+    font-display: ;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color:  palevioletred;
+}
+
+.main-links {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.description{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredients{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.steps{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ordered{
+    display: flex;
+    flex-direction: row;
+}
